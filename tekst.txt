@@ -1,0 +1,10 @@
+- Lihtandmetüübid: byte, short, int, long, float, double, boolean, char. 
+- Neid peab enne kasutamist deklareerima.
+- String ei ole näiteks lihtandmetüüp
+- Lihtandmetüüpidel puuduvad lisa meetodid. Saab ainult siis pmst gettida ja settida
+- Lihtandmetüübid jagunevad kaheks. Täisarvulised (byte, short, int, long) ja ujukomaarvulisteks (float ja double)
+- byte, short võib näiteks kasutada kui on vaja mälu hoida kokku sest kasutuses pole nii suuri arve. 
+- Alati pole vaja vaikeväärtust ise määrata, Java teeb seda ise lihtandmetüüpi luues. Booleani vaikeväärtus on false, charil on '\u0000', longil 0L. Igast double, float, int jms on default väärtus 0
+- Primitiivsed tüüpid ei tööta kui viidetena, mil mitte-primitiivsed töötavad kui viidetena. (reference)
+- Kui tahta arrayd luua, mis hoiaks endas integere, siis seal ei saa tüübiks panna primitiivst tüüpi, vaid peab panema mitte-primitiivse tüübi ehk Integer.
+- Nad on hoiustatud otse stack-il(pinu).
