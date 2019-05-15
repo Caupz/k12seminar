@@ -1,3 +1,6 @@
+Caupo Helvik
+Jaanus Lille
+
 - Lihtandmetüübid: byte, short, int, long, float, double, boolean, char. 
 - Neid peab enne kasutamist deklareerima.
 - String ei ole näiteks lihtandmetüüp
